@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="CSS/style.css"> -->
+    <link rel="stylesheet" href="CSS/headerFooter.css">
+    <link rel="stylesheet" href="./CSS/bog'lanish.css">
+    <title>Bog'lanish</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="header">
+        <!-- Navbar menu -->
+        <div class="header__navbar ">
+            <div class="navbar__logo ">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <nav class="navbar__menu ">
+                <ul class="menu__list d-none d-lg-flex">
+                    <li class="menu__item">
+                        <a href="./index.html" class="menu__link ">XTB haqida ma’lumot</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="./Xujjatlar.html" class="menu__link">Xujjatlar</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="./Talimga_oid_yangiliklar.html" class="menu__link">Ta’limga oid yangiliklar</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="./AKT.html" class="menu__link">AKT</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="./Bog'lanish.html" class="menu__link menu__active">Bog’lanish</a>
+                    </li>
+                </ul>
+                <div class="assistance d-none d-lg-flex">
+                    <div class="assistance__icon">
+                        <img src="./images/Assistance Icon.png" alt="">
+                    </div>
+                    <div class="assistance__call">
+                        <a href="#" class="call__text">Biz bilan a’loqa</a>
+                        <a href="#" class="call__number">1800 265 24 52</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="menu__icon d-block d-lg-none">
+            <ion-icon class="menu__icon--active" id="menu__open" name="menu-outline"></ion-icon>
+            <ion-icon class="a" id="menu__close" name="close-outline"></ion-icon>
+
+        </div>
+        <div class="menu__list--media row  d-lg-none bg-light  ">
+            <ul class="menu__list  row">
+                <li class="menu__item">
+                    <a href="./index.html" class="menu__link ">XTB haqida ma’lumot</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./Xujjatlar.html" class="menu__link">Xujjatlar</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./Talimga_oid_yangiliklar.html" class="menu__link">Ta’limga oid yangiliklar</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./AKT.html" class="menu__link">AKT</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./Bog'lanish.html" class="menu__link menu__active">Bog’lanish</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- /Navbar menu -->
+    </header>
+    <!-- header end -->
+
+    <!-- contact us start -->
+    <section class="section">
+        <div class="contact _container">
+            <div class="contact__left">
+                <div class="contact__title">
+                    <h1>Biz bilan shu yo’l orqali bog’laning</h1>
+                </div>
+                <form action="#">
+                    <input class="inp" type="text" name="fristName" id="fristName" placeholder="Ism">
+                    <input class="inp" type="text" name="lastName" id="lastName" placeholder="Familiya">
+                    <input class="inp" type="email" name="email" id="email" placeholder="Email">
+                    <input class="inp" type="tel" name="tel" id="tel" placeholder="Tel:">
+                    <input class="inp" type="text" name="message" id="message" placeholder="Message"><br>
+                    <button class="btn " type="submit" name="submit" id="submit">Jo'natish</button>
+                </form>
+            </div>
+            <div class="contact__right">
+                <div class="contact__information">
+                    <p>Manzil</p>
+                    <h2>NH 234 Turtkul Tumani ,Mustaqillik ko’chasi 65368</h2>
+                    <p>Pochta indeksi</p>
+                    <h2>1800 265 24 52 polonkas@gmail.com</h2>
+                    <p>Ish vaqtimiz</p>
+                    <h2>Dushanbadan Jumagacha 9:00dan 18:00 </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact us end -->
+    <!-- Map start -->
+    <section class="section">
+        <div class="map _container">
+            <div class="map__title">
+                <h1>Biz joylashgan joy</h1>
+            </div>
+            <div class="map__container">
+                <map name=""><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2985.713532464906!2d60.99674552679064!3d41.553799450860744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41dfd9cad6eba11f%3A0x17b953019ac88898!2sTurtkul%20Tumani%20Xokimyati!5e0!3m2!1sru!2s!4v1636416781803!5m2!1sru!2s"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe></map>
+            </div>
+        </div>
+    </section>
+    <!-- Map end -->
+
+    <!-- footer strat -->
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="footer__top--left">
+                <h1>Biz bilan shu ijtimoiy
+                    tarmoqlar orqali bog’laning</h1>
+                <div class="footer__left--icons">
+                    <a href="#"><img src="./images/Vector.png" alt=""></a>
+                    <a href="#"><img src="./images/Grouplinkeding.png" alt=""></a>
+                    <a href="#"><img src="./images/Groupinsta.png" alt=""></a>
+                    <a href="#"><img src="./images/facebooc.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer__top--right">
+                <p>Pochta indeksi</p>
+                <h2>1800 265 24 52</h2>
+                <p>Manzil</p>
+                <h2>To’rtko’l tumani,Mustaqillik ko’chasi, raqamsiz uy</h2>
+                <p>Ish vaqtimiz</p>
+                <h2>Dushanbadan Jumagacha 9:00dan 18:00 </h2>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <ul class="footer__menu">
+                <li class="footer__menu--item">
+                    <a href="" class="footer__item--link">XTB haqida ma’lumot</a>
+                </li>
+                <li class="footer__menu--item">
+                    <a href="" class="footer__item--link">Xujjatlar</a>
+                </li>
+                <li class="footer__menu--item">
+                    <a href="" class="footer__item--link">Ta’limga oid yangiliklar</a>
+                </li>
+                <li class="footer__menu--item">
+                    <a href="" class="footer__item--link">AKT</a>
+                </li>
+                <li class="footer__menu--item">
+                    <a href="" class="footer__item--link">Bog’lanish</a>
+                </li>
+            </ul>
+            <p>@MindDev & IT-MAXIMUM </p>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>

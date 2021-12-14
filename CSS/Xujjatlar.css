@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    width: 100%;
+    font-weight: 600;
+    /* font-size: 14px; */
+    font-style: normal;
+    font-family: 'Manrope';
+}
+._container {
+    width: 80%;
+    margin: 0 auto;
+}
+.section-container {
+    width: 100%;
+}
+.section__header {
+    margin: 60px auto;
+}
+.section__h1 {
+    font-size: 40px;
+    font-weight: 800;
+    width: 100%;
+    margin: 65px 0;
+}
+.section_body {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    
+    min-height: 800px;
+}
+
+.section__body--right {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+
+}
+.section__right--box {
+    min-height: 670px;
+    background-color: #F5F5F5;
+}
+.section__right--title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    margin: 35px auto;
+}
+.section__right--item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right__item--box {
+    width: 264px;
+    height: 158px;
+    background: #fff;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 36px;
+    padding: 20px;
+}
+.rightitem--box .lexuz {
+    width: 96px;
+    height: 80px;
+}
+.rightitem--box .kar24 {
+    width: 100px;
+    height: 65px;
+}
+.rightitem--box .kunuz {
+    width: 173px;
+    height: 50px;
+}
+.right__item--body {
+    font-size: 24px;
+}
+.section__right--about {
+    display: grid;
+}
+.section__about--item {
+    /* padding: 20px 30px; */
+    margin: 30px 0;
+    /* transform: translateX(-10%); */
+}
+.about__item--box {
+    /* padding: 20px 30px; */
+    margin: 30px 0;
+    /* background: #888; */
+}
+.about__item--title {
+    display: flex;
+    font-size: 24px;
+}
+.about__item--title .about {
+    width: 240px;
+    line-height: 60px;
+}
+.icon__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F5F5F5;
+    margin-right: 30px;
+    padding: 24px;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+}
+.icon__box img {
+    width: 24px;
+    height: 24px;
+}
+.about__item--body {
+    /* margin-left: 100px; */
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
+    /* width: 266px; */
+    opacity: 60%;
+}
+.section_body_left {
+  width: 60%;
+}
+.left__container {
+    width: 100%;
+    margin: 0 0 0 40px;
+}
+/* .section__leftf--header {
+    padding: 10px;
+} */
+.left__body--bg {
+    width: 100%;
+    height: 334px;
+    background: #fff;
+}
+.left__body--bg img {
+    width: 100%;
+    height: 100%;
+    background-position: bottom center;
+}
+.left__body--title {
+    line-height: 56px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    width: 100%;
+    margin: 40px 0;
+}
+.left__body {
+    width: 100%;
+    min-height: 170px;
+    margin: 20px 0;
+}
+.left__body p {
+    text-align: justify;
+    font-size: 16px;
+    color: #232536;
+    opacity: 60%;
+    font-weight: 500;
+}
+.leftbody .leftbody--text {
+    text-align: justify;
+    font-size: 16px;
+    color: #232536;
+    opacity: 60%;
+    font-weight: 500;
+}
+.left__body--item {
+    margin: 60px 0;
+    width: 100%;
+    min-height: 200px;
+    font-size: 32px;
+}
+.body__box {
+    position: relative;
+}
+.body__line{
+    width: 3px;
+    height: 100px;
+    background: #000;
+    position: absolute;
+    margin: -10px;
+    /* border-radius: 5px; */
+}
+
+/* Media */
+@media (max-width:992px){
+  
+}
+
+@media (max-width:782px) {
+    .section__body--right {
+        width: 100%;
+
+    }
+    .section_body_left {
+        width: 100%;
+    }
+    .section__right--box {
+        width: 100%;
+    }
+    .left__body--title {
+        font-size: 32px;
+    }
+    .section__about--item {
+        margin: 30px auto;
+    }
+    .left__container {
+        width: 100%;
+        margin: 0px;
+    }
+    .section__h1 {
+        font-size: 32px;
+        width: 100%;
+        margin: 30px 0;
+    }
+    .section__right--box {
+        width: 100%;
+    }
+    .left__body p, .left__body--text p {
+        font-size: 14px;
+        width: 100%;
+    }
+    
+    
+}
+@media (max-width:567px) {
+    .section__body--right {
+        width: 100%;
+
+    }
+    .section_body_left {
+        width: 100%;
+    }
+    .section__right--box {
+        width: 100%;
+    }
+   
+    .section__h1 {
+        font-size: 30px;
+        width: 100%;
+        margin: 30px 0;
+    }
+    .section__right--box {
+        width: 100%;
+    }
+    .left__body p, .left__body--text p {
+        font-size: 13px;
+        width: 100%;
+    }
+    
+}
