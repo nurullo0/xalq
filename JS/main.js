@@ -7,7 +7,7 @@
 window.addEventListener('scroll', function() {
     let navbar = document.querySelector('.header__navbar');
 
-    navbar.classList.toggle('nav__sticky', window.scrollY > 0)
+    navbar.classList.toggle('nav__sticky', window.scrollY > 10)
 })
 
  menuIcon.addEventListener('click', () =>{
